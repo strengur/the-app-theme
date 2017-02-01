@@ -1,0 +1,182 @@
+/*
+Theme Name: Webpage for Starfsmannafélag Þekkingar
+Theme URI: http://event.thekking.is/
+Description: A custom WordPress event website for events.
+Author: Steingrimur
+Author URI: http://thekking.is
+Version: 1.0
+Tags: clean, light, responsive, event, blue, black
+
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: 16px;
+  background: #1A1A1A;
+}
+
+#wrapper {
+  height: calc(100%);
+}
+
+p {
+  font-family: 'Raleway', arial, sans-serif;
+  font-weight: 400;
+  font-size: .85em;
+  margin-top: 0.1em;
+  line-height: 1.83em;
+  margin-bottom: 1.6em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Rock Salt', cursive;
+
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.77em;
+}
+
+h2 {
+  font-size: 2.636em;
+  margin-top: 0.98em;
+  margin-bottom: 0.45em; }
+
+h3 {
+  font-size: 1.618em; }
+
+h4 {
+  font-size: 1.407em;
+  line-height: 1.7em;
+  margin-top: 2.57em;
+}
+
+img {
+  display: block; }
+
+/* ========== Page headline and tagline ========== */
+.page-title h1,
+.page-title h2 {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+}
+
+.page-title h1 {
+  font-size: 2em;
+}
+
+.page-title h2 {
+  font-size: 1em;
+}
+
+/* ========== Hero buttons on landing page ========== */
+
+.hero-buttons {
+  position: relative;
+  max-width: 768px;
+  top: 40px;
+  padding: 5px 5px 5px 3px;
+  margin: 0 auto;
+}
+
+.hero-buttons ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-buttons ul li {
+  flex: 1 146px;
+  box-shadow: 2px 2px 1px #fff;
+  background: #218CD3;
+  border-radius: 5px;
+  padding: 4px;
+  margin: 4px;
+  text-align: center;
+
+}
+
+.hero-buttons ul li:hover {
+  position: relative;
+  top: 2px;
+  left: 2px;
+  box-shadow: 0px 0px 0px #fff;
+
+}
+
+.hero-buttons ul li a {
+  text-decoration: none;
+}
+
+.hero-buttons h1 {
+  font-size: 1.1em;
+  color: #1A1A1A;
+}
+
+.hero-buttons h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+  font-weight: 100;
+  color: #fff;
+
+}
+
+.logo {
+  width: 150px;
+  margin: 50px auto 2px;
+}
+
+/* ========== Posts and Pages ========== */
+
+#single-page {
+  background: #D9D9D9;
+  padding: 0 10px;
+}
+
+.post-content {
+  padding-bottom: 50px;
+}
+
+.post-content p {
+
+}
+
+.post-content h1 {
+  text-align: center;
+}
+
+/* ========== Footer ========== */
+footer {
+  position: relative;
+  background: #1A1A1A;
+  margin-top: 10px;
+}
+
+.copyright {
+  position: relative;
+
+}
+
+.copyright p {
+  font-size: 0.75em;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 7px 0 14px;
+}
+
+@media screen and (min-width: 768px) {
+
+
+}
