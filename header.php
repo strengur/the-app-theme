@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://event.thekking.is/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://event.thekking.is/favicon.png" type="image/x-icon" />
     <?php wp_head(); ?>
     <title>
-      <?php the_title(); ?>
+      <?php bloginfo('name'); ?>
     </title>
     <!-- <link rel="stylesheet" href="http://basehold.it/24"> -->
   </head>
