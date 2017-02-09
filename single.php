@@ -9,6 +9,8 @@
 
         <?php the_content(); ?>
 
+        <?php include('google-map.php'); ?>
+
 
     <?php endwhile; endif; ?>
   </div>

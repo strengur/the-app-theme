@@ -13,4 +13,15 @@ function theme_styles() {
 
 add_action( 'wp_enqueue_scripts', 'theme_styles' );
 
+function my_acf_google_map_api( $api ){
+
+	$api['key'] = 'AIzaSyAhtyiADgLahisVhYrIe533vV3sq4R2jUo';
+
+	return $api;
+
+}
+
+add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
+
+
 ?>
