@@ -23,7 +23,7 @@ body {
   padding-top:  20px;
 }
 
-p {
+p, li {
   font-family: 'Raleway', arial, sans-serif;
   font-weight: 400;
   font-size: .85em;
@@ -41,7 +41,7 @@ h4 {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   margin-bottom: 0.77em;
 }
 
@@ -54,13 +54,14 @@ h3 {
   font-size: 1.618em; }
 
 h4 {
-  font-size: 1.407em;
+  font-size: 1.307em;
   line-height: 1.7em;
   margin-top: 2.57em;
 }
 
 img {
-  display: block; }
+  display: block;
+}
 
 /* ========== Page headline and tagline ========== */
 .page-title h1,
@@ -80,6 +81,13 @@ img {
   font-size: 1em;
 }
 
+.page-title img {
+  width: 24px;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+}
+
 /* ========== Hero buttons on landing page ========== */
 
 .hero-buttons {
@@ -90,7 +98,8 @@ img {
   margin: 0 auto;
 }
 
-.hero-buttons ul {
+.hero-buttons ul,
+.veitingar-listings ul {
   padding-left: 0;
   list-style: none;
   display: flex;
@@ -99,6 +108,9 @@ img {
 
 .hero-buttons ul li {
   flex: 1 146px;
+}
+
+.hero-buttons ul li {
   box-shadow: 2px 2px 1px #fff;
   background: #218CD3;
   border-radius: 5px;
@@ -159,7 +171,51 @@ img {
   text-align: center;
 }
 
-/* ========== Direction button ========== */
+.veitingar-listings{
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.veitingar-listings img {
+  max-width: 120px;
+  height: auto;
+}
+
+.veitingar-listings ul {
+  justify-content: center;
+  list-style: none;
+  padding: 30px 0px 0px;
+}
+
+.veitingar-listings ul li {
+  flex: 0 120px;
+  margin: 10px;
+  align-self: center;
+}
+
+img.alignleft {
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+input {
+  line-height: normal;
+  padding: 2px;
+}
+
+input[type="submit"] {
+  background: #da2128;
+  border: 1px solid #da2128;
+  padding: 3px 9px;
+  color: #fff;
+}
+
+form.post-password-form {
+  text-align: center;
+}
+
+/* ========== Google direction button ========== */
 .acf-map-container {
   position: relative;
   margin: 0 auto;

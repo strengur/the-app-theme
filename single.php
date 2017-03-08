@@ -1,14 +1,15 @@
 <?php include('header.php'); ?>
 <div id="single-page">
   <div class="post-content">
-    <div class="veitingar-listings">
-      <!-- If post 28 (Veitingar) is present display list of available items. Else display standard Veitingar post. -->
+
+
       <?php if(is_single('28')) {
+        // If post 28 (Veitingar) is present display list of available items. Else display standard Veitingar post.
         $the_query = new WP_Query( array(
           'post_type' => 'veitingahus'
         ));
-
         if ( $the_query->have_posts() ) {
+          echo '<div class="veitingar-listings">';
           echo '<ul>';
           while ( $the_query->have_posts() ) {
             $the_query->the_post();
@@ -29,6 +30,7 @@
               echo '</li>';
           }
           echo '</ul>';
+          echo '</div>';
           /* Restore original Post Data */
           wp_reset_postdata();
         } else {
@@ -45,7 +47,6 @@
           endwhile; endif;
         }
       ?>
-    </div>
   </div>
 </div>
 

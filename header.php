@@ -17,4 +17,11 @@
       <div class="page-title">
         <h1><?php echo bloginfo(); ?></h1>
         <h2>- allt sem þú þarft að vita -</h2>
+        <?php
+          if(!is_home()) {
+        ?>
+            <a href="http://event.thekking.is"><img src="<?php echo get_template_directory_uri(); ?>/assets/icon-home-24px.svg"></a>
+        <?php
+          }
+        ?>
       </div>
