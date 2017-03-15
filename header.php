@@ -13,7 +13,7 @@
     <!-- <link rel="stylesheet" href="http://basehold.it/24"> -->
   </head>
   <body>
-    <div id="wrapper">
+
       <div class="page-title">
         <h1><?php echo bloginfo(); ?></h1>
         <h2>- allt sem þú þarft að vita -</h2>
@@ -25,3 +25,4 @@
           }
         ?>
       </div>
+      <div id="wrapper">

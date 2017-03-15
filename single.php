@@ -36,13 +36,22 @@
         } else {
           // no posts found
         }
-      } else {
+      } elseif (in_category('3')) {
+        if ( have_posts() ) : while ( have_posts() ) : the_post();
+          echo '<div class="restaurant">';
+            echo '<div class="post-thumbnail">';
+              the_post_thumbnail();
+            echo '</div>';
+              the_content();
+          echo '</div>';
+            include('google-map.php');
+          endwhile; endif;
+        } else {
         if ( have_posts() ) : while ( have_posts() ) : the_post();
           echo '<h1>';
             the_title();
           echo '</h1>';
             the_content();
-
           include('google-map.php');
           endwhile; endif;
         }
