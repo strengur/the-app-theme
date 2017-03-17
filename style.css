@@ -107,7 +107,8 @@ img {
 }
 
 .hero-buttons ul,
-.veitingar-listings ul {
+.veitingar-listings ul,
+.ratleikur-listings ul {
   padding-left: 0;
   list-style: none;
   display: flex;
@@ -181,23 +182,27 @@ img {
   text-align: center;
 }
 
-.veitingar-listings{
+.veitingar-listings,
+.ratleikur-listings {
   max-width: 420px;
   margin: 0 auto;
 }
 
-.veitingar-listings img {
+.veitingar-listings img,
+.ratleikur-listings img {
   max-width: 120px;
   height: auto;
 }
 
-.veitingar-listings ul {
+.veitingar-listings ul,
+.ratleikur-listings ul {
   justify-content: center;
   list-style: none;
   padding: 30px 0px 0px;
 }
 
-.veitingar-listings ul li {
+.veitingar-listings ul li,
+.ratleikur-listings ul li {
   flex: 0 120px;
   margin: 10px;
   align-self: center;
@@ -239,6 +244,27 @@ input[type="submit"] {
 
 form.post-password-form {
   text-align: center;
+}
+
+.pagination {
+  position: relative;
+  width: 100%;
+  padding: 30px 0px;
+}
+
+.previous a,
+.next a {
+  text-decoration: none;
+}
+
+.previous {
+  position: absolute;
+  right: 0;
+}
+
+.next {
+  position: absolute;
+  left: 0;
 }
 
 /* ========== Google direction button ========== */
