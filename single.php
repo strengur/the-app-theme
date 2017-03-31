@@ -53,9 +53,11 @@
           echo '<h4>';
             wp_title( $sep = '');
           echo '</h4>';
+          echo the_content();
           echo '<ul>';
           while ( $the_query->have_posts() ) {
             $the_query->the_post();
+
               echo '<li>';
                 echo '<p>';
                   the_title();
