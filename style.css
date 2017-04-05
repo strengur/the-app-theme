@@ -184,7 +184,7 @@ img {
 
 .veitingar-listings,
 .ratleikur-listings {
-  max-width: 420px;
+  max-width: 460px;
   margin: 0 auto;
 }
 
@@ -203,9 +203,19 @@ img {
 
 .veitingar-listings ul li,
 .ratleikur-listings ul li {
+  background: #d5d5d5;
   flex: 0 120px;
   margin: 10px;
-  align-self: center;
+  align-self: stretch;
+  text-align: center;
+  padding: 6px 6px 0px;
+  box-shadow: 2px 2px 5px #a2a2a2;
+}
+
+.veitingar-listings ul li p,
+.ratleikur-listings ul li p {
+  margin-bottom: 0px;
+
 }
 
 .post-thumbnail {

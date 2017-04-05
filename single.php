@@ -28,6 +28,7 @@
                   //   echo '</div>';
                   // echo '</div>';
                 echo '</a>';
+                echo '<p>' . the_title() . '</p>';
               echo '</li>';
           }
           echo '</ul>';
@@ -59,9 +60,6 @@
             $the_query->the_post();
 
               echo '<li>';
-                echo '<p>';
-                  the_title();
-                echo '</p>';
                 echo '<a href="';
                   echo get_permalink();
                 echo '">';
@@ -75,6 +73,9 @@
                   //   echo '</div>';
                   // echo '</div>';
                 echo '</a>';
+                echo '<p>';
+                  the_title();
+                echo '</p>';
               echo '</li>';
           }
           echo '</ul>';
