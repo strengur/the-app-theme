@@ -277,6 +277,17 @@ form.post-password-form {
   left: 0;
 }
 
+.teams ul {
+  list-style: none;
+  padding: initial;
+  display: initial;
+  text-align: left;
+}
+
+/*.teams ul li {
+  display: block;
+}*/
+
 /* ========== Google direction button ========== */
 .acf-map-container {
   position: relative;
